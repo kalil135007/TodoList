@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top{
+    font-size: 250%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 100px;
+    line-height: 100px;
+    width: 100vw;
+}
+button{
+    cursor: pointer;
+}
+.top_div1{
+    background-color: aqua ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*display: inline-block;*/
+}
+.div1{
+    width: 85%;
+    height: 80%;
+    border-radius: 15px;
+    background: white;
+}
+.sub_div1{
+    background-color: rgb(190, 190, 190);
+    width: 35%;
+    height: 20vh;
+    margin-left: 10px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-radius: 15px;
+    display: inline-block;
+}
+.p1{
+    text-align: center;
+    font-size: 370%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 20px; */
+    /* height: 20px; */
+}
+.task{
+    margin-left: 20%;
+    padding: 20px;
+}
+.add{
+    color: white;
+    background-color: rgb(57, 57, 226);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+}
+.sub_div2{
+    width: 60%;
+    height: 100px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.table{
+    padding: 10px;
+    width: auto;
+    height: inherit;
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+thead{
+    background-color: whitesmoke;
+}
+tr{
+    border-bottom: 0.5px solid rgb(238,235,235);
+    margin-bottom: 50px;
+}
+thead tr th{
+    padding: 5px;
+    text-align: start;
+    margin-bottom: 50px;
+}
+thead tr th.funcao{
+    width: 100px!important;
+    text-align: center;
+}
+tbody tr td{
+    vertical-align: text-top;
+    padding: 6px;
+    max-width: 50px;
+}
+tbody tr{
+    margin-bottom: 50px;
+}
+tbody tr td.funcao{
+    text-align: center;
+}
+/*
+.sub1{
+    background-color: white;
+    border-radius: 10px;
+    margin-top:7% ;
+    margin-left: 7%;
+    width: 40vw;
+    height: 70vh;
+
+}
+*/
+/*
+.div2{
+    background-color: blue;
+    width: 50%;
+    height: 100vh;
+    display: inline-block;
+    margin-left: -4px;
+}
+*/
+span{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+}
